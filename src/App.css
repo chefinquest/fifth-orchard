@@ -272,7 +272,8 @@ nav a:hover::after, nav a:focus-visible::after { transform: scaleX(1); }
 .product-copy p { margin: 10px 0; font-size: 15px; }
 .product-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }
 .price { font-family: 'Gaegu', cursive; font-size: 34px; font-weight: 700; }
-.product-actions .hand-button, .cart-panel .hand-button { width: 118px; height: 46px; }
+.product-actions .hand-button { width: 118px; height: 46px; }
+.cart-panel .hand-button { width: 154px; height: 48px; }
 .product-actions .hand-button span, .cart-panel .hand-button span { font-size: 22px; }
 
 .cart-panel { position: sticky; top: 20px; padding: 24px; min-height: 380px; }
